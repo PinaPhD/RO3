@@ -89,10 +89,10 @@ class MyTopo( Topo ):
 
         # Interface names for Nacelle switch to tower switch links
         self.addLink(wt1_sw1, wt1_sw2, intfName1='wt1_sw1-eth2', intfName2='wt1_sw2-eth1')
-        self.addLink(wt2_sw1, wt2_sw2, intfName1='wt2_sw1-eth1', intfName2='wt2_sw2-eth1')
-        self.addLink(wt3_sw1, wt3_sw2, intfName1='wt3_sw1-eth1', intfName2='wt3_sw2-eth1')
-        self.addLink(wt4_sw1, wt4_sw2, intfName1='wt4_sw1-eth1', intfName2='wt4_sw2-eth1')
-        self.addLink(wt5_sw1, wt5_sw2, intfName1='wt5_sw1-eth1', intfName2='wt5_sw2-eth1')
+        self.addLink(wt2_sw1, wt2_sw2, intfName1='wt2_sw1-eth2', intfName2='wt2_sw2-eth1')
+        self.addLink(wt3_sw1, wt3_sw2, intfName1='wt3_sw1-eth2', intfName2='wt3_sw2-eth1')
+        self.addLink(wt4_sw1, wt4_sw2, intfName1='wt4_sw1-eth2', intfName2='wt4_sw2-eth1')
+        self.addLink(wt5_sw1, wt5_sw2, intfName1='wt5_sw1-eth2', intfName2='wt5_sw2-eth1')
 
         # Interface names for WT Tower Switch to spine switches
         self.addLink(wt1_sw2, sp1, intfName1='wt1_sw2-eth2', intfName2='sp1-eth1')
